@@ -14,4 +14,4 @@ $factory->define(Order::class, static function (Faker $faker) {
         'is_deliver' => $faker->boolean,
         'delivery_date' => $faker->date(),
     ];
-}); 
+});
